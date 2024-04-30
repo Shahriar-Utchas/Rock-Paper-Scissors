@@ -1,3 +1,4 @@
+//javaScript
 const choices = ['rock', 'paper', 'scissors'];
 
 const playerDisplay = document.getElementById('PlayerDisplay');
