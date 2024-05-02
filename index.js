@@ -33,7 +33,7 @@ function games(playerChoice){
     ComputerDisplay.textContent = `Computer: ${computerChoice}`;  
     ResultDisplay.textContent = result;
     ResultDisplay.classList.remove("greenText", "redText", "tieText");
-    
+    //resulet
     switch(result){
         case"YOU WIN!":
             ResultDisplay.classList.add("greenText");
