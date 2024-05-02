@@ -9,6 +9,7 @@ const ComputerScoreDisplay = document.getElementById("ComputerScore");
 let playerScore =0; 
 let ComputerScore =0; 
 
+//player choice
 function games(playerChoice){
     const computerChoice = choices[Math.floor(Math.random() * 3)];
     let result ="";
